@@ -27,6 +27,7 @@ color: blue;
 .image-part {
     width: 100%;
   }
+
   .button {
 	text-decoration: navajowhite;
 	border: 1px solid orange;
@@ -61,3 +62,54 @@ background-image: linear-gradient(tomato,orange);
   .text-area h4 {
 	font-size: 22px;
 }
+.box-content{
+    display: flex;
+}
+.box {
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+margin-left: 3%;
+margin-right: 3%;
+padding: 35px;
+border-radius: 10px;
+border-left: 10px solid;
+border-image: linear-gradient(tomato, orange);
+    border-image-slice: 100%;
+border-image-slice: 1;
+}
+  .box p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+    padding: 0px 140px 0px 0px;
+   margin-top: 20px;
+   
+}
+.box-header {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.box-content{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box h2 {
+	font-size: 40px;
+    font-weight: 500;
+}
+.box-02 {
+	border-image: linear-gradient(blue,aqua);
+	border-image-slice: 1;
+}
+
+#footer-bg {
+    margin-top: 101px;
+    text-align: center;
+padding: 20px;
+  }
+  #footer-bg p {
+    font-size: 18px;
+    font-weight: 500;
+  }
