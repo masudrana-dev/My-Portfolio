@@ -43,3 +43,9 @@ background-image: linear-gradient(tomato,orange);
 	background: transparent;
 	color: orange;
 }
+#masud-02{
+    display: flex;
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
