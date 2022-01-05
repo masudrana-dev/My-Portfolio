@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+} 
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.span-color span{
+color: blue;
+}
+#Masud{
+        display: flex;
+        padding: 3%;
+        background-image: url(../image/top-banner.png) ;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 130px;
+}
+
+.image-part {
+    width: 100%;
+  }
+  .button {
+	text-decoration: navajowhite;
+	border: 1px solid orange;
+	padding: 8px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 5px;
+background-image: linear-gradient(tomato,orange);
+	font-weight: 500;
+	font-size: 20px;
+    color: #fff;
+    
+}
+.button:hover {
+	background: transparent;
+	color: orange;
+}
