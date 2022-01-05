@@ -13,6 +13,7 @@ h1{
 .span-color span{
 color: blue;
 }
+
 #Masud{
         display: flex;
         padding: 3%;
@@ -48,4 +49,15 @@ background-image: linear-gradient(tomato,orange);
     background-image: url(../image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.text-area p {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px 200px 0px 0px;
+  }
+  .text-area h3 {
+    font-size: 22px;
+  }
+  .text-area h4 {
+	font-size: 22px;
 }
